@@ -1,0 +1,137 @@
+
+
+
+
+
+
+/* utility-class */
+
+/* header */
+/* header start here */
+
+#header-id {width: 100%;}
+.top-nav {padding: 40px  0; display: flex; justify-content: space-between;}
+/* nav {} */
+nav {width: auto;}
+nav ul {list-style: none; margin: 0px; padding: 0px;}
+nav ul li {float: left;}
+nav ul li a { color: #212832; padding:15px 20px; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; border:transparent solid 1px ; }
+nav ul li a:hover {color: #212832 ; }
+
+.signup { border:solid 1px #212832;}
+.signup:hover { border:solid 1px transparent; color:#fff ; background: #DF6951;}
+/* header end here */
+
+
+
+:root{
+    --pading: 100px 0;
+    --pading-top: 100px 0 0 0;
+    --pading-bottom:0 0 100px 0;
+    
+    }
+.sm-text {color:#DF6951; font-size: 20px; text-transform: uppercase; font-weight: bold; padding:0px 0px 60px!important 0px;}
+.banner-head {font-size:74px; color:#181E4B ; font-weight:bold; line-height: 74px; padding-top: 30px;}
+.grey-pera {color:#5E6282; font-size: 18px; line-height: 30px; padding-top: 20px;}
+.grey-pera-2 {color:#5E6282; font-size: 18px; line-height: 30px; }
+.sub-head {font-size: 18px; color:#5E6282; text-transform: uppercase;}
+.heading {font-size:54px; color:#181E4B ; font-weight:bold; padding-top: 25px; padding-bottom: 25px;}
+.sm-heading { font-size:18px  ; color: #5E6282; font-weight: bold;} 
+.top-content {width: 100%;}
+.btn {width: 100%; padding: 0px!important;}
+.btn-yello { background:#F1A501; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; height:65px; line-height:65px; color:#fff; font-size: 18px; padding:0 30px!important; display: inline-block; 
+float:left; }
+.btn-yello:hover {  color:#fff; }
+.play-btn { background: #DF6951; color: #fff; text-align: center; height: 65px; line-height: 65px; width: 65px; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;display: inline-block; float: left; margin-left: 30px; }
+.play-btn:hover {  color: #fff; }
+    
+ /* footer end here */
+#footer-id {width: 100%; padding:var(--pading);}
+.footer {width: 100%; display: flex; justify-content: space-between; align-items:flex-start;}
+.link  ul {list-style: none; margin: 0px; padding: 0px;}
+.link  ul li {float: none; padding-bottom:13px;}
+.link  ul li a {color:#5E6282; font-size:18px; }
+.link  h1 {color:#080809; font-size:25px; font-weight: bold; padding-bottom:18px;}
+
+.social {width: auto;}
+.social h2 {color:#5E6282; font-size:18px;padding-bottom:13px; }
+.social ul {margin: 0px; padding: 0px; list-style: none;width:100%!important; } 
+.social ul li{float: left; padding-right: 20px; margin-bottom: 20px;} 
+.social ul li a { width: 50px; height:50px; line-height: 50px; background: #fff; box-shadow: 0 0 40px 0 rgba(0, 0, 0,0.1);color:#212832; display: inline-block; border-radius: 100px; text-align: center;} 
+.app {width: 100%; float: left;}
+.app ul {width: 100%;}
+.app ul li {float: left; padding-right: 10px;}
+.app ul li a{width: 100%;}
+
+.copy {text-align: center; width: 100%;}
+
+
+#main-nav {display:none;}
+ 
+.top-nav label i { font-size: 30px;color:#181E4B;cursor:pointer;display:none}
+/* footer end here */   
+
+
+/************ media query start ********************/
+@media (max-width:1200px){}
+@media (max-width:992px){}
+@media (max-width:768px){
+:root{
+--pading: 50px 0;
+--pading-top: 50px 0 0 0;
+--pading-bottom:0 0 50px 0;}
+       
+.sm-text {color:#DF6951; font-size: 20px; text-transform: uppercase; font-weight: bold; padding:0px 0px 60px!important 0px;}
+.banner-head {font-size:50px; color:#181E4B ; font-weight:bold; line-height: 50px; padding-top: 20px;}
+.grey-pera {color:#5E6282; font-size: 18px; line-height: 30px; padding-top: 20px;}
+.grey-pera-2 {color:#5E6282; font-size: 18px; line-height: 30px; }
+.sub-head {font-size: 15px; color:#5E6282; text-transform: uppercase;}
+.heading {font-size:35px; color:#181E4B ; font-weight:bold; padding-top: 25px; padding-bottom: 25px;}
+.sm-heading { font-size:18px  ; color: #5E6282; font-weight: bold;} 
+.top-content {width: 100%;}
+.btn {width: 100%; padding: 0px!important;}
+.btn-yello { background:#F1A501; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px ; -ms-border-radius:10px ; -o-border-radius:10px ; height:65px; line-height:65px; color:#fff; font-size: 18px; padding:0 30px!important; display: inline-block; 
+           float:left; }
+.btn-yello:hover {  color:#fff; }
+       
+.play-btn { background: #DF6951; color: #fff; text-align: center; height: 65px; line-height: 65px; width: 65px; border-radius: 100px; -webkit-border-radius: 100px; -moz-border-radius: 100px; -ms-border-radius: 100px; -o-border-radius: 100px;display: inline-block; float: left; margin-left: 30px; }
+       
+.play-btn:hover {  color: #fff; }
+
+
+/* header */
+#header-id {width: 100%;}
+.top-nav {  padding:0px; display: flex; justify-content: space-between; background:none!important;z-index:999 ; }
+ /* nav {} */
+.logo {width:auto;padding:40px 0 40px 40px;}
+nav {background:none;display:none!important;padding:40px 0 40px 0;}
+nav ul {list-style: none; margin: 40px 0 0 0; padding: 0px;text-align:center}
+nav ul li {float:none;width:100%;display:inline-block;margin:20px 0}
+nav ul li a { color: #212832; padding:15px 20px; border-radius:10px ; -webkit-border-radius:10px ; -moz-border-radius:10px -ms-border-radius:10px ; -o-border-radius:10px ; border:transparent solid 1px ;font-size:20px }
+       
+       
+.signup { border:solid 1px #212832;display:inline-block}
+.signup:hover { border:solid 1px transparent; color:#fff ; background: #DF6951;}
+       /* header end here */
+
+
+/* footer */
+.link  ul {list-style: none; margin: 0px; padding: 0px;}
+.link  ul li {float: none; padding-bottom:13px;}
+.link  ul li a {color:#5E6282; font-size:18px; }
+.link  h1 {color:#080809; font-size:25px; font-weight: bold; padding-bottom:18px;}
+
+.social {width: auto;}
+.social h2 {color:#5E6282; font-size:18px;padding-bottom:13px;}
+.social ul {margin: 0px; padding: 0px; list-style: none;width: 100%!important;display:block } 
+.social ul li {float: left; padding-right: 20px; margin-bottom: 20px;} 
+.social ul li a { width: 50px; height:50px; line-height: 50px; background: #fff; box-shadow: 0 0 40px 0 rgba(0, 0, 0,0.1);color:#212832; display:inline-block!important; border-radius: 100px; text-align: center;} 
+
+.app {width: 100%;float:left}
+.app ul {width: 100%;}
+.app ul li { padding-right: 10px;display:inline-block}
+.app ul li a{width: 100%;display:inline-block}
+
+
+}
+@media (max-width:567px){} 
