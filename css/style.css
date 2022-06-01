@@ -204,6 +204,7 @@ nav ul li a:hover {color: #212832 ; }
     .top-nav {padding: 40px ; display: flex; justify-content: space-between;}
     .star {position: absolute; right:0; top:0;z-index: 999;}
 .star img {width: auto;}
+    .place {position: absolute; right:0; top:-30;}
 }
 @media (max-width:768px){
 :root{
